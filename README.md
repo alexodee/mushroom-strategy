@@ -1,54 +1,48 @@
-# Mushroom dashboard strategy
+# Mushroom Strategy France 🇫🇷
 
 [![release][releaseBadge]][releaseUrl]
 [![hacs][hacsBadge]][hacsUrl]
 
-![Preview GIF](./docs/preview.gif)
+![Aperçu GIF](./docs/preview.gif)
 
 <details>
-  <summary>More images...</summary>
+  <summary>Plus d'images...</summary>
 
-![Automatic](./docs/auto.png)
+![Automatique](./docs/auto.png)
 
-![Views](./docs/views.png)
+![Vues](./docs/views.png)
 
-![customizable](./docs/customizable.png)
+![Personnalisable](./docs/customizable.png)
 </details>
 
-## What is the Mushroom Dashboard Strategy?
+## Qu'est-ce que la Stratégie du Dashboard Mushroom ?
 
-Mushroom Dashboard Strategy provides a strategy for Home Assistant to automatically generate a dashboard using Mushroom
-cards.
+La Stratégie du Dashboard Mushroom fournit une méthode pour Home Assistant afin de générer automatiquement un tableau de bord en utilisant des cartes Mushroom.
 
-It generates cards for your Home Assistants entities and areas, divided over several views.
-Besides a Home view from where you can enter a subview of your areas, a separate view for lights, fans and other domains
-are generated for easy access to your entities.
+Elle génère des cartes pour les entités et les zones de Home Assistant, réparties sur plusieurs vues. En plus d'une vue principale à partir de laquelle vous pouvez accéder à une sous-vue de vos zones, une vue distincte pour les lumières, les ventilateurs et d'autres domaines est générée pour un accès facile à vos entités.
 
-### Features
+### Fonctionnalités
 
-- 🛠 Automatically create dashboard with three lines of yaml.
-- 😍 Built-in Views for device-specific controls.
-- 🎨 Many options to customize to fit your needs.
+- 🛠 Création automatique de tableaux de bord avec trois lignes de YAML.
+- 😍 Vues intégrées pour les contrôles spécifiques aux appareils.
+- 🎨 De nombreuses options de personnalisation pour répondre à vos besoins.
 
 > [!TIP]
-> If you like this package, please star the [project at GitHub](https://github.com/AalianKhan/mushroom-strategy)! 🌟
+> Si vous aimez ce package, veuillez étoiler le [projet sur GitHub](https://github.com/AalianKhan/mushroom-strategy) ! 🌟
 
-## Getting started
+## Pour commencer
 
-The strategy is easily installable from [HACS][hacsUrl] (Home Assistant Community Store).
-Please visit [Installation Guide](https://github.com/AalianKhan/mushroom-strategy/wiki/#installation) at our Wiki.
+La stratégie est facilement installable depuis [HACS][hacsUrl] (Home Assistant Community Store). Veuillez consulter le [Guide d'installation](https://github.com/AalianKhan/mushroom-strategy/wiki/#installation) dans notre Wiki.
 
-## Need some help?
+## Besoin d'aide ?
 
-Visit the [Discussions](https://github.com/AalianKhan/mushroom-strategy/discussions) page or the [Wiki](https://github.com/AalianKhan/mushroom-strategy/wiki).
+Visitez la page des [Discussions](https://github.com/AalianKhan/mushroom-strategy/discussions) ou le [Wiki](https://github.com/AalianKhan/mushroom-strategy/wiki).
 
-## Have an idea or want to report a bug?
+## Une idée ou un bug à signaler ?
 
-Make sure your idea or bug isn't discussed already in our Discussions or Issues!
-Visit the [issues](https://github.com/AalianKhan/mushroom-strategy/issues/new/choose) page.
+Assurez-vous que votre idée ou bug n'est pas déjà discuté dans nos Discussions ou Issues ! Visitez la page des [problèmes](https://github.com/AalianKhan/mushroom-strategy/issues/new/choose).
 
-
-## Contributors
+## Contributeurs
 
 * [DigiLive](https://github.com/DigiLive)
 
@@ -56,12 +50,12 @@ Visit the [issues](https://github.com/AalianKhan/mushroom-strategy/issues/new/ch
 
 * [Johan Frick](https://github.com/johanfrick)
 
-## Credits
+## Remerciements
 
-* The cards used are from [Mushroom][mushroomUrl] and [Mini graph card][miniGraphUrl].
-* Took inspiration from [Balloob battery strategy][balloobBatteryUrl].
+* Les cartes utilisées proviennent de [Mushroom][mushroomUrl] et [Mini graph card][miniGraphUrl].
+* Inspiration tirée de la [stratégie de batterie de Balloob][balloobBatteryUrl].
 
-<!-- Badge References -->
+<!-- Références des badges -->
 
 [hacsBadge]: https://img.shields.io/badge/HACS-Default-blue
 
@@ -69,7 +63,7 @@ Visit the [issues](https://github.com/AalianKhan/mushroom-strategy/issues/new/ch
 
 [releaseBadge]: https://img.shields.io/badge/Release-v2.1.0-blue
 
-<!-- Other References -->
+<!-- Autres Références -->
 
 [hacsUrl]: https://hacs.xyz
 

@@ -78,8 +78,8 @@ class HomeView extends AbstractView {
 
       if (!Helper.strategyOptions.home_view.hidden.includes("greeting")) {
         homeViewCards.push({
-          type: "custom:mushroom-template-card",
-          primary: "{% set time = now().hour %} {% if (time >= 18) %} Good Evening, {{user}}! {% elif (time >= 12) %} Good Afternoon, {{user}}! {% elif (time >= 5) %} Good Morning, {{user}}! {% else %} Hello, {{user}}! {% endif %}",
+          type: "custom:mushroom-template-card", 
+          primary: "{% set time = now().hour %} {% if (time >= 18) %} Bonsoir {{user}} ! {% elif (time >= 12) %} Bonjour {{user}} ! {% elif (time >= 5) %} Bonjour {{user}} ! {% else %} Bonjour {{user}} ! {% endif %}",
           icon: "mdi:hand-wave",
           icon_color: "orange",
           tap_action: {
